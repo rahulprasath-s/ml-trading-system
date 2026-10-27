@@ -1,0 +1,5 @@
+node_modules/
+data/
+.dukascopy-cache/
+.DS_Store
+.env

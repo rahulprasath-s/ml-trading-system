@@ -1,0 +1,16 @@
+{
+  "name": "ml-trading-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Resumable historical forex and spot gold data collection",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "download": "node scripts/download-history.cjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dukascopy-node": "1.51.0"
+  }
+}
